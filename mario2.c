@@ -8,6 +8,14 @@
     This file is a solution to the mario pyramid problem from
     pset1 of CS50, more comfortable version. It draws a pyramid 
     with spaces in the middle, of a user-specified height.
+    
+Sample:
+    
+Enter pyramid height: 4
+   #  #   
+  ##  ##  
+ ###  ### 
+####  ####
 
 */
 
