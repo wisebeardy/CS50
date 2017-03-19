@@ -30,7 +30,10 @@ int main(void)
     {
     printf("Enter pyramid height: ");
     n = get_int();
-    }
+    if (n == 0)
+    { 
+        return 0;
+    }    }
     while(n < 1 || n > 23);
 
 
