@@ -9,6 +9,14 @@
     pset1 of CS50. It draws a half-pyramid similar to the one
     at the end of World 1-1, of a user-specified height.
 
+    Sample:
+    
+Enter pyramid height: 4
+   ##  
+  ###  
+ #### 
+#####
+
 */
 
 #include <stdio.h>
