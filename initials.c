@@ -26,10 +26,10 @@ int main(void)
         printf("%c", toupper(name[0]));
     }
 
-    // print first initial if there are leading spaces, and remaining initials
+    // print first initial if there are leading spaces, then print remaining initials
     for (int i = 0, n = strlen(name); i < n; i++)
     {
-        if (name[i+1] != ' ' && name[i] == ' ')
+        if (isalpha(name[i+1]) && name[i+1] != ' ' && name[i] == ' ')
         {
             printf("%c", toupper(name[i+1]));
         }
